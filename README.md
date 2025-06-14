@@ -14,3 +14,7 @@ Important Commands -
 
 - Activate Virtual Environment (for Windows)- `venv\Scripts\activate`
 - Running Flask Application - `flask run`
+- For initialising db migrations scripts repository - `flask db init`
+- For generating migrations script - `flask db migrate`
+- For applying/upgrading database - `flask db upgrade`
+- For downgrading database to previous migration version - `flask db downgrade`
